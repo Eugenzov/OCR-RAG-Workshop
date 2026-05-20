@@ -127,7 +127,7 @@ Kör cellen `naive_ask(QUESTION)`.
 
 ### 3.3 — Försvar och diskussion (10 min)
 
-Kör cellen `defended_ask(QUESTION)`.
+Skriv en säker prompts och kör cellen `defended_ask(QUESTION)`.
 
 **Förväntat:** Modellen svarar på den faktiska frågan (eller vägrar med "prompt injection detected").
 
@@ -150,7 +150,7 @@ Vad vi inte hann med — men du kan utforska själv:
 **Tre saker att ta med:**
 1. RAG = bara strängkonkatenering med extra steg. Magin är embeddings + retrieval.
 2. "Agenter" = LLM + loop + verktyg. Det är *vår* kod som kör, inte modellens.
-3. Allt som hamnar i prompten är instruktioner till modellen. Behandla extern data som otrusted.
+3. Allt som hamnar i prompten är instruktioner till modellen. Behandla extern data som untrusted.
 
 ---
 
